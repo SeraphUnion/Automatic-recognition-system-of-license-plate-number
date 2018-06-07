@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:/Users/Administrator/zxybishe/python/train-saver/digits/model.ckpt"
+all_model_checkpoint_paths: "C:/Users/Administrator/zxybishe/python/train-saver/digits/model.ckpt"
