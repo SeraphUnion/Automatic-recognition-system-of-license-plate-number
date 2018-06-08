@@ -9,12 +9,12 @@
 六、研究利用跨平台架构库wxWidgets为系统设计良好的用户界面
 
 整个系统的开发流程如下：
-![Alt text](https://github.com/BBuf/Automatic-recognition-system-of-license-plate-number/Screenshots/1.png)
+![Alt text](https://github.com/BBuf/Automatic-recognition-system-of-license-plate-number/tree/master/Screenshots/1.png)
 整个系统的前端界面如下：
-![Alt text](https://github.com/BBuf/Automatic-recognition-system-of-license-plate-number/Screenshots/2.png)
+![Alt text](https://github.com/BBuf/Automatic-recognition-system-of-license-plate-number/tree/master/Screenshots/2.png)
 系统新增用户错误反馈功能如下：
-![Alt text](https://github.com/BBuf/Automatic-recognition-system-of-license-plate-number/Screenshots/3.png)
-![Alt text](https://github.com/BBuf/Automatic-recognition-system-of-license-plate-number/Screenshots/4.png)
+![Alt text](https://github.com/BBuf/Automatic-recognition-system-of-license-plate-number/tree/master/Screenshots/3.png)
+![Alt text](https://github.com/BBuf/Automatic-recognition-system-of-license-plate-number/tree/master/Screenshots/4.png)
 
 
 研究成果和展望：
