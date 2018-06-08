@@ -29,5 +29,5 @@
 启动这个工程之后需要进行一次模型训练就是点击前端界面中字符识别模型训练下的字符识别模型训练和汉字识别模型训练即可，除了下载一个IDEA
 用户不需要配置任何环境，即可运行本系统和在本系统的基础上修改和学习相关代码。里面的Commons文件夹将所有需要用到的opencv的插件和wxWidgets
 插件都便宜成了.a文件，cmakelists里面直接引用了，用户可以不用配置任何环境，用Clion打开就可以运行本工程。并且我提供了一个本工程的懒人版，
-克隆下来点击window.exe即可用。<br>
-https://github.com/BBuf/License-plate-number-automatic-identification-system-laziness-Edition
+克隆下来点击window.exe启动系统，然后点击模型训练训练自己的模型即可，因为不同电脑的cpu和gpu不同，所以需要自己训练一次模型再来识别。
+https://github.com/BBuf/License-plate-number-automatic-identification-system-laziness-Edition<br>
