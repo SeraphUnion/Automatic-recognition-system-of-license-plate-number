@@ -9,18 +9,18 @@ using namespace cv;
 using namespace std;
 
 int main(){
-    FileStorage fs("C:/Users/Administrator/zxybishe/XML/SVM2.xml", FileStorage::WRITE);
+    FileStorage fs("/XML/SVM2.xml", FileStorage::WRITE);
     char way[90];
     Mat trainingmat, input, now;
     for(int i=1; i<=100; i++){
-        sprintf(way, "C:/Users/Administrator/zxybishe/data/Database_SVM/posdata/0000 (%d).bmp", i);
+        sprintf(way, "data/Database_SVM/posdata/0000 (%d).bmp", i);
         input = imread(way, -1);
         now = input.reshape(1, 1);
         now.convertTo(now, CV_32FC1);
         trainingmat.push_back(now);
     }
     for(int i=1; i<=70; i++){
-        sprintf(way, "C:/Users/Administrator/zxybishe/data/Database_SVM/negdata/0000 (%d).bmp", i);
+        sprintf(way, "data/Database_SVM/negdata/0000 (%d).bmp", i);
         input = imread(way, -1);
         now = input.reshape(1, 1);
         now.convertTo(now, CV_32FC1);

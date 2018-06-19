@@ -11,7 +11,7 @@ extern "C"{
 }
 int main(){
     char filename[200];
-    sprintf(filename, "C:/Users/Administrator/zxybishe/saveImage/1.jpg");
+    sprintf(filename, "saveImage/1.jpg");
     Mat input_img = imread(filename, 1);
     Mat input_img2;
     input_img2 = input_img.clone();
@@ -73,13 +73,13 @@ int main(){
     waitKey(0);
     cv::imshow("char6", char_seg[6]);
     waitKey(0);
-    cv::imwrite("C:/Users/Administrator/zxybishe/python/zxytest_images/1.jpg", char_seg[0]);
-    cv::imwrite("C:/Users/Administrator/zxybishe/python/zxytest_images/2.jpg", char_seg[1]);
-    cv::imwrite("C:/Users/Administrator/zxybishe/python/zxytest_images/3.jpg", char_seg[2]);
-    cv::imwrite("C:/Users/Administrator/zxybishe/python/zxytest_images/4.jpg", char_seg[3]);
-    cv::imwrite("C:/Users/Administrator/zxybishe/python/zxytest_images/5.jpg", char_seg[4]);
-    cv::imwrite("C:/Users/Administrator/zxybishe/python/zxytest_images/6.jpg", char_seg[5]);
-    cv::imwrite("C:/Users/Administrator/zxybishe/python/zxytest_images/7.jpg", char_seg[6]);
+    cv::imwrite("python/zxytest_images/1.jpg", char_seg[0]);
+    cv::imwrite("python/zxytest_images/2.jpg", char_seg[1]);
+    cv::imwrite("python/zxytest_images/3.jpg", char_seg[2]);
+    cv::imwrite("python/zxytest_images/4.jpg", char_seg[3]);
+    cv::imwrite("python/zxytest_images/5.jpg", char_seg[4]);
+    cv::imwrite("python/zxytest_images/6.jpg", char_seg[5]);
+    cv::imwrite("python/zxytest_images/7.jpg", char_seg[6]);
     cv::destroyAllWindows();
     return 0;
 }

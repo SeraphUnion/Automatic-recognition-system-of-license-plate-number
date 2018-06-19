@@ -10,14 +10,14 @@ using namespace std;
 
 
 int main(){
-    FileStorage fs("/home/just_sort/CLionProjects/zxybisepredeal/XML/ann_xml.xml", FileStorage::WRITE);
+    FileStorage fs("XML/ann_xml.xml", FileStorage::WRITE);
     Mat trainData;
     Mat classes = Mat::zeros(1,1700,CV_8UC1);
     char path[90];
     Mat img_read;
     for(int i=0;i<34;i++){
         for(int j=1;j<51;j++){
-            sprintf(path,"/home/just_sort/CLionProjects/zxybisepredeal/data/charSamples/%d/%d.jpg", i,j);
+            sprintf(path,"data/charSamples/%d/%d.jpg", i,j);
             img_read = cv::imread(path, -1);
 //            cv::imshow("233", img_read);
 //            cv::waitKey(0);
